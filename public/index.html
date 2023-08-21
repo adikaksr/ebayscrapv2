@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+
+  <body>
+    <div id="content-container">
+      <!-- Your content goes here -->
+      <h1>eBay Data Scraper</h1>
+      <label for="url">eBay URL:</label>
+      <input type="text" id="url" placeholder="Example: https://something.com/">
+      <label for="filename">Filename:</label>
+      <input type="text" id="filename" placeholder="Example: Filename.csv">
+      <button id="scrapeButton">Scrape Data</button>
+      <div id="link-container"></div>
+    </div>
+
+    <div id="loading-container" class="hidden">
+      <div class="loader"></div>
+      <p>Scrapping Data...</p>
+    </div>
+    <script src="/main.js"></script>
+
+  </body>
+
+</html>
